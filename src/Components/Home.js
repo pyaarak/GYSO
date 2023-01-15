@@ -57,6 +57,7 @@ export default function Home() {
                         <p className='instruction'>Join GYSO, engross in our training</p>
                         <p className='instruction'>&</p>
                         <p className='instruction'>enhance the path to reach your dream career!</p>
+                        <button className='Register_button btn btn-primary'>REGISTER</button>
                     </div>
                     <div className='col-md-5'>
                         <div className='inner_img_container'>
@@ -68,7 +69,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <Footer></Footer>
+            {/* <Footer></Footer> */}
         </div>
     )
 }

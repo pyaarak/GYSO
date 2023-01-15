@@ -1,0 +1,336 @@
+:root {
+    --up: 4;
+    --card-margin: 25px;
+    --card-shadow: rgba(46, 49, 52, .4);
+    --color-white: #fff;
+    --color-lightgrey: rgbs(0, 0, 0, 0);
+    --color-ui: #999;
+    --color-ui-hover: #666;
+    --cardWidth: calc(95vw/var(--up));
+    --carouselWidth: calc(var(--cardWidth) * var(--num));
+    --carouselLeftMargin: calc(2vw - var(--cardWidth));
+
+    @media screen and (min-width: 1000px) and (max-width:1200px) {
+        /*basically mobile*/
+        --up: 3;
+    }
+
+    @media screen and (min-width: 700px) and (max-width:1000px) {
+        /*basically mobile*/
+        --up: 2;
+    }
+
+    @media screen and (min-width: 200px) and (max-width:700px) {
+        /*basically mobile*/
+        --up: 1;
+    }
+}
+
+.Training_wrapper {
+    font-family: 'Bellefair',
+        serif;
+    // background-color: #FCBD50;
+    // background-color: goldenrod;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    // background-image: url(../assets/Floor.jpg);
+    // background-repeat:no-repeat;
+    // background-size: cover;
+
+    p {
+        text-align: left;
+        font-size: 23px;
+        padding: 20px;
+
+        @media screen and (min-width:700px) and (max-width:900px) {
+            font-size: 20px;
+        }
+
+        @media screen and (min-width:500px) and (max-width:700px) {
+            font-size: 18px;
+        }
+
+        @media screen and (min-width:200px) and (max-width:500px) {
+            font-size: 16px;
+        }
+    }
+
+    h1 {
+        margin-bottom: 30px;
+        font-weight: 900;
+        text-align: center;
+        display: block;
+        width: 99%;
+    }
+
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+
+    .Training_section {
+        width: 100%;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: #FCBD50;
+    }
+
+    .Training_inner_wrapper {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 100px;
+
+        .row {
+            width: 100%;
+        }
+
+        @media screen and (max-width:767px) {
+            width: 100%;
+        }
+
+        .training_inner_card {
+            // margin-left: 70px;
+            padding-left: 0px;
+            padding-right: 0px;
+            padding: 0px;
+            // margin-bottom: 30px;
+            // width: 33%;
+
+            &.card {
+                // background-color: rgba(0, 0, 0, 0);
+                box-shadow: 3px 1px 9px -1px rgba(0, 0, 0, 0.6);
+                border: none;
+                height: 500px;
+
+                @media screen and (min-width:900px) and (max-width:1200px) {
+                    height: 600px;
+                }
+
+                @media screen and (min-width:623px) and (max-width:900px) {
+                    height: 500px;
+                }
+
+                @media screen and (min-width:200px) and (max-width:623px) {
+                    height: auto;
+                }
+
+                .card-body {
+                    padding-left: 5px;
+                    padding-right: 5px;
+                    padding-top: 20px;
+                    padding-bottom: 0px;
+                    text-align: left;
+                }
+
+                .card-footer {
+                    background-color: rgba(0, 0, 0, 0);
+                    border: none;
+                    background-color: goldenrod;
+                    padding: 20px;
+
+                    p {
+                        // padding-bottom: 15px;
+                        text-align: center;
+                        width: calc(100% - 60px);
+
+                        @media screen and (min-width:600px) and (max-width:900px) {
+                            font-size: 20px;
+                        }
+                    }
+
+                    .footer_logo_img {
+                        width: 70px;
+                        height: 70px;
+                        // border: 1px solid;
+                        border-radius: 50%;
+                        box-shadow: 3px 1px 9px -1px rgba(0, 0, 0, 0.6);
+                        float: right;
+                        margin-top: -22px;
+                        background-color: white;
+                        margin-right: -42px;
+                        margin-bottom: -33px;
+                    }
+                }
+
+                ul {
+                    margin: 10px;
+                    padding: 0;
+
+                    li {
+                        list-style: none;
+                        position: relative;
+                        padding: 0 0 0 20px;
+                        font-size: 20px;
+                        margin-bottom: 25px;
+
+                        @media screen and (min-width:500px) and (max-width:700px) {
+                            font-size: 18px;
+                        }
+
+                        @media screen and (min-width:200px) and (max-width:500px) {
+                            font-size: 16px;
+                        }
+
+                        &::before {
+                            content: "";
+                            position: absolute;
+                            left: 0;
+                            top: 5px;
+                            background: #000;
+                            width: 10px;
+                            height: 10px;
+                            text-align: center;
+                            -webkit-transform: rotate(0deg);
+                            -moz-transform: rotate(0deg);
+                            -ms-transform: rotate(0deg);
+                            -o-transform: rotate(0deg);
+                            transform: rotate(0deg);
+                        }
+
+                        &::after {
+                            content: "";
+                            position: absolute;
+                            top: 5px;
+                            left: 0;
+                            height: 10px;
+                            width: 10px;
+                            background: #000;
+                            -webkit-transform: rotate(45deg);
+                            -moz-transform: rotate(45deg);
+                            -ms-transform: rotate(45deg);
+                            -o-transform: rotate(45deg);
+                            transform: rotate(45deg);
+                        }
+                    }
+                }
+            }
+
+            // @media screen and (min-width:900px) and (max-width:1200px) {
+            //     width: 33%;
+            //     margin-left: 0px;
+            // }
+
+            // @media screen and (min-width:623px) and (max-width:900px) {
+            //     width: 50%;
+            //     margin-left: 0px;
+            // }
+
+            // @media screen and (min-width:200px) and (max-width:623px) {
+            //     width: 100%;
+            //     margin-left: 0px;
+            // }
+        }
+    }
+
+    .Tenure_program {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
+    .carouselwrapper {
+        overflow: hidden;
+        background: var(--color-lightgrey);
+        position: relative;
+    }
+
+    .carousel {
+        width: var(--carouselWidth);
+        margin: 0 0 0 var(--carouselLeftMargin);
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        padding: 0;
+
+        &.prev {
+            animation-duration: .6s;
+            animation-timing-function: cubic-bezier(0.83, 0, 0.17, 1);
+            animation-name: prev;
+        }
+
+        &.next {
+            animation-duration: .6s;
+            animation-timing-function: cubic-bezier(0.83, 0, 0.17, 1);
+            animation-name: next;
+        }
+
+        div {
+            // padding: 50px;
+            text-align: center;
+            width: calc(var(--cardWidth) - var(--card-margin) * 2);
+            box-sizing: border-box;
+        }
+    }
+
+    .ui {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        display: flex;
+        width: calc(100% - 1px);
+        justify-content: space-between;
+        padding: var(--card-margin);
+        z-index: 100;
+
+        button {
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--color-ui);
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            color: var(--color-white);
+            box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, .25);
+            border: 0;
+            transition: all .2s cubic-bezier(0.39, 0.575, 0.565, 1);
+
+            &:hover {
+                background: var(--color-ui-hover);
+            }
+
+            &:focus {
+                outline: none;
+                border: 1px solid rgba(255, 255, 255, 1);
+            }
+        }
+    }
+
+    .card {
+        box-shadow: 3px 1px 9px -1px rgba(0, 0, 0, 0.6);
+        border-radius: 4px;
+        margin: var(--card-margin);
+        background: var(--color-white);
+
+        .material-icons {
+            font-size: 1.4rem;
+        }
+
+        p {
+            font-family: 'Open Sans Condensed', sans-serif;
+            font-size: 1.4rem;
+            margin-bottom: 0;
+        }
+    }
+
+    @keyframes next {
+        from {
+            transform: translateX(0px);
+        }
+
+        to {
+            transform: translateX(calc(0px + var(--cardWidth)));
+        }
+    }
+
+    @keyframes prev {
+        from {
+            transform: translateX(0px);
+        }
+
+        to {
+            transform: translateX(calc(0px - var(--cardWidth)));
+        }
+    }
+}
