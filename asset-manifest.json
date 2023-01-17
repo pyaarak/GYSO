@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/pyaarak/GYSO.git/static/css/main.127e5e9f.css",
-    "main.js": "/pyaarak/GYSO.git/static/js/main.1cb71f1b.js",
-    "static/js/787.5a5c2e62.chunk.js": "/pyaarak/GYSO.git/static/js/787.5a5c2e62.chunk.js",
-    "static/media/Aboutus2.jpg": "/pyaarak/GYSO.git/static/media/Aboutus2.adc9dbe6481c20081ecc.jpg",
-    "static/media/Aboutus3.jpg": "/pyaarak/GYSO.git/static/media/Aboutus3.84e6f0733e5b2e254fdc.jpg",
-    "static/media/boximg1.jpg": "/pyaarak/GYSO.git/static/media/boximg1.5cd35516748790fb6a3d.jpg",
-    "static/media/1.jpg": "/pyaarak/GYSO.git/static/media/1.309ef3e441bb095152ed.jpg",
-    "static/media/boximg2.jpg": "/pyaarak/GYSO.git/static/media/boximg2.0dfa5752554934d6d7b3.jpg",
-    "static/media/Aboutus1.jpg": "/pyaarak/GYSO.git/static/media/Aboutus1.508fda79cd9402699eb1.jpg",
-    "static/media/boximg3.jpg": "/pyaarak/GYSO.git/static/media/boximg3.341f7f2e2ef3dbcd9b5b.jpg",
-    "static/media/4.jpg": "/pyaarak/GYSO.git/static/media/4.3601847228c0154be5fa.jpg",
-    "static/media/header-background.jpg": "/pyaarak/GYSO.git/static/media/header-background.667684fe7055b0f7fd85.jpg",
-    "static/media/6.jpg": "/pyaarak/GYSO.git/static/media/6.8d31044b3fc1b4fe18d9.jpg",
-    "static/media/Logo_Gyso_origin.png": "/pyaarak/GYSO.git/static/media/Logo_Gyso_origin.82525f0ee4ca7265b2e9.png",
-    "index.html": "/pyaarak/GYSO.git/index.html",
-    "main.127e5e9f.css.map": "/pyaarak/GYSO.git/static/css/main.127e5e9f.css.map",
-    "main.1cb71f1b.js.map": "/pyaarak/GYSO.git/static/js/main.1cb71f1b.js.map",
-    "787.5a5c2e62.chunk.js.map": "/pyaarak/GYSO.git/static/js/787.5a5c2e62.chunk.js.map"
+    "main.css": "/pyaarak/GYSO/static/css/main.f92b1236.css",
+    "main.js": "/pyaarak/GYSO/static/js/main.7e8ab039.js",
+    "static/js/787.5a5c2e62.chunk.js": "/pyaarak/GYSO/static/js/787.5a5c2e62.chunk.js",
+    "static/media/Aboutus2.jpg": "/pyaarak/GYSO/static/media/Aboutus2.adc9dbe6481c20081ecc.jpg",
+    "static/media/Aboutus3.jpg": "/pyaarak/GYSO/static/media/Aboutus3.84e6f0733e5b2e254fdc.jpg",
+    "static/media/boximg1.jpg": "/pyaarak/GYSO/static/media/boximg1.5cd35516748790fb6a3d.jpg",
+    "static/media/1.jpg": "/pyaarak/GYSO/static/media/1.309ef3e441bb095152ed.jpg",
+    "static/media/boximg2.jpg": "/pyaarak/GYSO/static/media/boximg2.0dfa5752554934d6d7b3.jpg",
+    "static/media/Aboutus1.jpg": "/pyaarak/GYSO/static/media/Aboutus1.508fda79cd9402699eb1.jpg",
+    "static/media/boximg3.jpg": "/pyaarak/GYSO/static/media/boximg3.341f7f2e2ef3dbcd9b5b.jpg",
+    "static/media/4.jpg": "/pyaarak/GYSO/static/media/4.3601847228c0154be5fa.jpg",
+    "static/media/header-background.jpg": "/pyaarak/GYSO/static/media/header-background.667684fe7055b0f7fd85.jpg",
+    "static/media/6.jpg": "/pyaarak/GYSO/static/media/6.8d31044b3fc1b4fe18d9.jpg",
+    "static/media/Logo_Gyso_origin.png": "/pyaarak/GYSO/static/media/Logo_Gyso_origin.82525f0ee4ca7265b2e9.png",
+    "index.html": "/pyaarak/GYSO/index.html",
+    "main.f92b1236.css.map": "/pyaarak/GYSO/static/css/main.f92b1236.css.map",
+    "main.7e8ab039.js.map": "/pyaarak/GYSO/static/js/main.7e8ab039.js.map",
+    "787.5a5c2e62.chunk.js.map": "/pyaarak/GYSO/static/js/787.5a5c2e62.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.127e5e9f.css",
-    "static/js/main.1cb71f1b.js"
+    "static/css/main.f92b1236.css",
+    "static/js/main.7e8ab039.js"
   ]
 }
