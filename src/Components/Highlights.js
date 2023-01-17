@@ -43,14 +43,12 @@ export default function Highlights() {
   return (
     <div className='Highlights_wrapper'>
       <div className='Highlights_inner_wrapper'>
-        <div className='row'>
-          <div className='col-lg-2'></div>
-          <div className='col-lg-8 Mission_Gyso'>
+        <div className='Mission_wrapper'>
+          <div className='Mission_Gyso'>
             <h2>Mission of GYSO</h2>
             <p>To sow students with the thought “Be educated, be agitated, be organized, be confident,
               never give up” and facilitate them to reach their dream career.</p>
           </div>
-          <div className='col-lg-2'></div>
         </div>
         <div className='row'>
           <div className='col-lg-7 inner_content'>

@@ -32,16 +32,18 @@ export default function Navbar() {
             <div className={`Navbar_wrapper`}>
                 <div className={`Navbar_inner_wrapper`}>
                     <img className='Img_logo1' src={Logo}></img>
-                    {!Mobilewidth &&
-                        <div className={`contactus`}><span>ABOUT US</span><span>CONTACT</span></div>
-                    }
+                    {/* {!Mobilewidth && */}
+                        <div className={`contactus`} onClick={e=>{
+                            window.location.href="/#Service"
+                        }}><span>CONTACT</span></div>
+                    {/* } */}
 
-                    {Mobilewidth &&
+                    {/* {Mobilewidth &&
                         <div className={`contactus`}><i onClick={e => sethandleview()}><DehazeOutlinedIcon></DehazeOutlinedIcon></i></div>
-                    }
+                    } */}
                 </div>
             </div>
-            {Viewbox &&
+            {/* {Viewbox &&
                 <div className='blackdash_board'>
                     <div className='inner_blackdash_board'>
                         <div><i onClick={e => sethandleview()}><ClearIcon></ClearIcon></i></div>
@@ -51,7 +53,7 @@ export default function Navbar() {
                         </ul>
                     </div>
                 </div>
-            }
+            } */}
         </>
     )
 }

@@ -26,31 +26,69 @@
             padding-top: 0px;
         }
 
+        .Mission_wrapper{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
 
-        .Mission_Gyso {
-            text-align: center;
-            background-color: #FCBD50;
-            font-family: 'Bellefair',
-                serif;
+            .Mission_Gyso {
+                width: 70%;
+                text-align: center;
+                background-color: goldenrod;
+                font-family: 'Bellefair',
+                    serif;
 
-            h2 {
-                font-weight: 900;
+                @media screen and (min-width:700px) and (max-width:900px){
+                    width: 80%;
+                }
+
+                @media screen and (min-width:500px) and (max-width:700px){
+                    width: 90%;
+                }
+
+                @media screen and (min-width:200px) and (max-width:500px){
+                    width: 96%;
+                }
+    
+                h2 {
+                    font-weight: 900;
+                }
+    
+                padding: 40px;
+                border-radius: 10px;
+                font-size: 20px;
             }
-
-            padding: 40px;
-            border-radius: 10px;
-            font-size: 20px;
         }
 
         .inner_img {
             width: 100%;
             height: 600px;
-            // background-image: url(../assets/Aboutus1.jpg);
+            background-image: url(../assets/boximg3.jpg);
             background-repeat: no-repeat;
-            background-size: 100% 100%;
-            border-top-right-radius: 20px;
-            border-bottom-right-radius: 20px;
+            background-size: contain;
+            background-position: center;
+            margin-top: 70px;
+            position: relative;
             // margin-left: -50px;
+
+            @media screen and (min-width:1000px) and (max-width:1300px){
+                height: 500px;
+            }
+
+            @media screen and (min-width:700px) and (max-width:1000px){
+                height: 400px;
+            }
+
+            @media screen and (min-width:500px) and (max-width:700px){
+                height: 300px;
+                margin-top: 30px;
+            }
+
+            @media screen and (min-width:200px) and (max-width:500px){
+                height: 200px;
+                margin-top: 30px;
+            }
         }
 
 

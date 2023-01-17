@@ -1,39 +1,41 @@
 import React, { useEffect, useState } from 'react'
 import '../Stylesheets/Training.scss'
 import Logo from '../assets/Logo_Gyso_origin.png'
+import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
 export default function Training() {
 
     const items = [
         {
             icon: "Intensive Placement Training Program",
-            copy: `24 hours
-            8hrs * 3 Saturdays`
+            copy: `32 hours
+            8hrs * 4 Saturdays`
         }, {
             icon: "Exclusive Aptitude Training Program",
             copy: `24 hours
             8hrs * 3 Saturdays`
         }, {
             icon: "Communication & Soft Skill Training Program",
-            copy: `56 hours
-            8hrs * 7Saturdays`
-        }, {
-            icon: "Exclusive Soft Skill Training Program",
             copy: `24 hours
             8hrs * 3 Saturdays`
+        }, {
+            icon: "Exclusive Soft Skill Training Program",
+            copy: `16 hours
+            8hrs * 2 Saturdays`
         }, {
             icon: "Intensive Communication Skill Program",
             copy: `16 hours
             8hrs * 2 Saturdays`
         }, {
             icon: "Java Technical Training Program",
-            copy: `16 hours
-            8hrs * 2 Saturdays`
+            copy: `24 hours
+            8hrs * 3 Saturdays`
         },
         {
             icon: "a2z Placement Training Program",
-            copy: `24 hours
-            8hrs * 3 Saturdays`
+            copy: `56 hours
+            8hrs * 7Saturdays`
         },
         {
             icon: "MBA HR Skill Specific Training Program",
@@ -42,8 +44,8 @@ export default function Training() {
         },
         {
             icon: "MBA Sales and Marketing Skill Specific Program",
-            copy: `32 hours
-            8hrs * 4 Saturdays`
+            copy: `24 hours
+            8hrs * 3 Saturdays`
         }
     ];
 
@@ -55,47 +57,93 @@ export default function Training() {
             copy: `Intensive Placement Training Program`
         }, {
             icon: `<ul><li>Aptitude - Numerical
-            Ability, Logical and Reasoning, Non-Verbal &
-            Verbal Ability.</li><li>Soft Skill & Interview tips.</li><li>Communication Skill needed for interview.</li></ul>`,
-            copy: `Intensive Placement Training Program`
+            Ability, Logical and
+            Reasoning, Non-Verbal
+            &Verbal Ability.</li>
+        <li>Soft Skill, Communication
+            Skill and Interview tips.</li>
+        <li>Java basics & coding skills.</li></ul>`,
+            copy: `a2z Placement
+            Training Program`
+        }, {
+            icon: `<ul><li>HR skills- Communication,
+            LSWR skills, Scheduling,
+            Managing Priorities,
+            Analytical Skills, Conflict
+            Resolution, Team work,
+            Recruitment Process,
+            Presentation and Reporting
+            skills.</li></ul>`,
+            copy: `MBA HR Skill
+            Specific Training
+            Program`
+        }, {
+            icon: `<ul><li>Sales & Marketing Skills -
+            Communication Skills, Sales
+            Skills & 3Ps,
+            Demonstration, Influencing
+            & Relationship Skills,
+            Follow up & Reporting,
+            Presentation Skills,e-mail
+            drafting and so on.</li></ul>`,
+            copy: `MBA Sales and
+            Marketing Skill
+            Specific Program`
         }, {
             icon: `<ul><li>Aptitude - Numerical
-            Ability, Logical and Reasoning, Non-Verbal &
-            Verbal Ability.</li><li>Soft Skill & Interview tips.</li><li>Communication Skill needed for interview.</li></ul>`,
-            copy: `Intensive Placement Training Program`
+            Ability, Logical and
+            Reasoning, Non-Verbal
+            &Verbal Ability.</li>
+        <li>Interview preparation tips.</li></ul>`,
+            copy: `Exclusive
+            Aptitude Training
+            Program`
         }, {
-            icon: `<ul><li>Aptitude - Numerical
-            Ability, Logical and Reasoning, Non-Verbal &
-            Verbal Ability.</li><li>Soft Skill & Interview tips.</li><li>Communication Skill needed for interview.</li></ul>`,
-            copy: `Intensive Placement Training Program`
-        }, {
-            icon: `<ul><li>Aptitude - Numerical
-            Ability, Logical and Reasoning, Non-Verbal &
-            Verbal Ability.</li><li>Soft Skill & Interview tips.</li><li>Communication Skill needed for interview.</li></ul>`,
-            copy: `Intensive Placement Training Program`
-        }, {
-            icon: `<ul><li>Aptitude - Numerical
-            Ability, Logical and Reasoning, Non-Verbal &
-            Verbal Ability.</li><li>Soft Skill & Interview tips.</li><li>Communication Skill needed for interview.</li></ul>`,
-            copy: `Intensive Placement Training Program`
+            icon: `<ul><li>Soft Skills - SelfIntroduction, Interview
+            Etiquette, Resume Building
+            Body Language & so on.</li>
+        <li>Communication Skill -
+            Effective & Conversational
+            English, e-mail drafting,
+            Basic Grammar and so on.</li></ul>`,
+            copy: `Communication &
+            Soft Skill
+            Training Program`
         },
         {
-            icon: `<ul><li>Aptitude - Numerical
-            Ability, Logical and Reasoning, Non-Verbal &
-            Verbal Ability.</li><li>Soft Skill & Interview tips.</li><li>Communication Skill needed for interview.</li></ul>`,
-            copy: `Intensive Placement Training Program`
+            icon: `<ul><li>Java - Fundamentals</li>
+            <li>Core Java Concepts</li>
+            <li>Coding objectives</li>
+            <li>Programming logics</li>
+            <li>Programming based
+                questions.</li></ul>`,
+            copy: `Java Technical
+            Training Program`
         },
         {
-            icon: `<ul><li>Aptitude - Numerical
-            Ability, Logical and Reasoning, Non-Verbal &
-            Verbal Ability.</li><li>Soft Skill & Interview tips.</li><li>Communication Skill needed for interview.</li></ul>`,
-            copy: `Intensive Placement Training Program`
+            icon: `<ul><li>Soft Skills - SelfIntroduction, Interview
+            Etiquette, Resume
+            Building, Time
+            Management,Moral values,
+            Body Language, Self
+            motivation mantra's and so
+            on.</li></ul>`,
+            copy: `Exclusive Soft
+            Skill Training
+            Program`
         },
         {
-            icon: `<ul><li>Aptitude - Numerical
-            Ability, Logical and Reasoning, Non-Verbal &
-            Verbal Ability.</li><li>Soft Skill & Interview tips.</li><li>Communication Skill needed for interview.</li></ul>`,
-            copy: `Intensive Placement Training Program`
+            icon: `<ul><li>Communication Skill -
+            Effective & Conversational
+            English, e-mail drafting,
+            Basic Grammar,
+            Presentation,Public
+            Speaking, HR HR
+            Interview Questions,
+            LSRW skills & so on.</li></ul>`,
+            copy: `Intensive
+            Communication
+            Skill Program`
         }
     ];
 
@@ -106,7 +154,8 @@ export default function Training() {
 
     const Card = (props) => {
         return (
-            <div className="card">
+            <div className="card tenure_card">
+                <div className='card-header'><img src={Logo} className="footer_logo_img"></img></div>
                 <div class="card-body">{props.icon}</div>
                 <div className='card-footer'>{props.copy}</div>
             </div>
@@ -116,8 +165,9 @@ export default function Training() {
     const Card1 = (props) => {
         return (
             <div className="card training_inner_card">
-                <div class="card-body" dangerouslySetInnerHTML={{__html: props.icon}}></div>
-                <div className='card-footer'>{props.copy}<img src={Logo} className="footer_logo_img"></img></div>
+                <div className='card-header'><p>{props.copy}</p></div>
+                <div className="card-body" dangerouslySetInnerHTML={{ __html: props.icon }}></div>
+                <div className='card-footer'><img src={Logo} className="footer_logo_img"></img></div>
             </div>
         )
     }
@@ -244,7 +294,7 @@ export default function Training() {
                         <div className='card'>
                             <div className='card-body'>
                                 <ul>
-                                    <li>•Sales & Marketing Skills -
+                                    <li>Sales & Marketing Skills -
                                         Communication Skills, Sales
                                         Skills & 3Ps,
                                         Demonstration, Influencing
@@ -368,10 +418,10 @@ export default function Training() {
                 <div className="carouselwrapper module-wrapper">
                     <div className="ui">
                         <button onClick={() => setMoveClass1('next')} className="prev">
-                            <span className="material-icons">chevron_left</span>
+                            <span className="material-icons"><ArrowBackIosNewIcon></ArrowBackIosNewIcon></span>
                         </button>
                         <button onClick={() => setMoveClass1('prev')} className="next">
-                            <span className="material-icons">chevron_right</span>
+                            <span className="material-icons"><ArrowForwardIosIcon></ArrowForwardIosIcon></span>
                         </button>
                     </div>
                     <div onAnimationEnd={handleAnimationEnd1} className={`${moveClass1} carousel`}>
@@ -422,10 +472,10 @@ export default function Training() {
                     <div className="carouselwrapper module-wrapper">
                         <div className="ui">
                             <button onClick={() => setMoveClass('next')} className="prev">
-                                <span className="material-icons">chevron_left</span>
+                                <span className="material-icons"><ArrowBackIosNewIcon></ArrowBackIosNewIcon></span>
                             </button>
                             <button onClick={() => setMoveClass('prev')} className="next">
-                                <span className="material-icons">chevron_right</span>
+                                <span className="material-icons"><ArrowForwardIosIcon></ArrowForwardIosIcon></span>
                             </button>
                         </div>
                         <div onAnimationEnd={handleAnimationEnd} className={`${moveClass} carousel`}>

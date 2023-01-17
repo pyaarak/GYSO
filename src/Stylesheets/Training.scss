@@ -1,6 +1,6 @@
 :root {
     --up: 4;
-    --card-margin: 25px;
+    --card-margin: 17px;
     --card-shadow: rgba(46, 49, 52, .4);
     --color-white: #fff;
     --color-lightgrey: rgbs(0, 0, 0, 0);
@@ -10,7 +10,7 @@
     --carouselWidth: calc(var(--cardWidth) * var(--num));
     --carouselLeftMargin: calc(2vw - var(--cardWidth));
 
-    @media screen and (min-width: 1000px) and (max-width:1200px) {
+    @media screen and (min-width: 1000px) and (max-width:1300px) {
         /*basically mobile*/
         --up: 3;
     }
@@ -71,7 +71,7 @@
         width: 100%;
         padding-top: 40px;
         padding-bottom: 40px;
-        background-color: #FCBD50;
+        background-color: goldenrod;
     }
 
     .Training_inner_wrapper {
@@ -102,13 +102,15 @@
                 box-shadow: 3px 1px 9px -1px rgba(0, 0, 0, 0.6);
                 border: none;
                 height: 500px;
+                border-radius: 37px;
 
                 @media screen and (min-width:900px) and (max-width:1200px) {
-                    height: 600px;
+                    height: 500px;
                 }
 
                 @media screen and (min-width:623px) and (max-width:900px) {
-                    height: 500px;
+                    // height: 400px;
+                    height: auto;
                 }
 
                 @media screen and (min-width:200px) and (max-width:623px) {
@@ -126,30 +128,74 @@
                 .card-footer {
                     background-color: rgba(0, 0, 0, 0);
                     border: none;
+                }
+
+                .footer_logo_img {
+                    width: 80px;
+                    height: 80px;
+                    border-radius: 50%;
+                    box-shadow: inset 3px 1px 9px -1px rgb(0 0 0 / 60%);
+                    float: right;
+                    margin-top: -71px;
+                    background-color: white;
+                    margin-right: -19px;
+                    margin-bottom: -33px;
+
+                    // @media screen and (max-width:900px) {
+                    //     margin-right: -13px;
+                    //     margin-top: -57px;
+                    //     width: 70px;
+                    //     height: 70px;
+                    // }
+                }
+
+                .card-header {
+                    background-color: rgba(0, 0, 0, 0);
+                    border: none;
                     background-color: goldenrod;
-                    padding: 20px;
+                    padding: 0px;
+                    // height: 150px;   
+                    font-family: 'Bellefair',
+                        serif;
+                    position: relative;
+                    margin-bottom: 0px;
+                    margin-left: 11px;
+                    margin-top: 11px;
+                    border-radius: 24px;
+                    box-shadow: 3px 1px 9px -1px rgb(0 0 0 / 60%);
+                    width: 93%;
+                    // margin-right: -10px;
+                    // width: calc(100% - 70px);
 
                     p {
                         // padding-bottom: 15px;
-                        text-align: center;
-                        width: calc(100% - 60px);
+                        text-align: left;
+                        width: calc(100% - 80px);
+                        font-size: 18px;
+                        font-weight: 900;
 
                         @media screen and (min-width:600px) and (max-width:900px) {
-                            font-size: 20px;
+                            font-size: 18px;
                         }
                     }
 
                     .footer_logo_img {
-                        width: 70px;
-                        height: 70px;
-                        // border: 1px solid;
+                        width: 80px;
+                        height: 80px;
                         border-radius: 50%;
-                        box-shadow: 3px 1px 9px -1px rgba(0, 0, 0, 0.6);
+                        box-shadow: 3px 1px 9px -1px rgb(0 0 0 / 60%);
                         float: right;
-                        margin-top: -22px;
+                        margin-top: -73px;
                         background-color: white;
-                        margin-right: -42px;
+                        margin-right: -26px;
                         margin-bottom: -33px;
+
+                        @media screen and (max-width:900px) {
+                            margin-right: -13px;
+                            margin-top: -57px;
+                            width: 70px;
+                            height: 70px;
+                        }
                     }
                 }
 
@@ -223,6 +269,70 @@
         }
     }
 
+    .tenure_card {
+        border-radius: 27px !important;
+        background-color: white !important;
+        padding-bottom: 10px;
+
+        .footer_logo_img {
+            // width: 70px;
+            // height: 70px;
+            // border-radius: 50%;
+            // opacity: 0.4;
+            // box-shadow: 3px 1px 9px -1px rgb(0 0 0 / 60%);
+            // float: left;
+            // margin-top: -20px;
+            // background-color: rgba(0, 0, 0, 0);
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            opacity: 0.2;
+            margin-bottom: -96px;
+            background-color: rgba(0, 0, 0, 0);
+            // margin-left: -28px;
+            // margin-bottom: -18px;
+
+            // @media screen and (max-width:900px) {
+            //     margin-right: -13px;
+            //     margin-top: -57px;
+            //     width: 70px;
+            //     height: 70px;
+            // }
+        }
+
+        .card-header {
+            background-color: rgba(0, 0, 0, 0);
+            border: none;
+        }
+
+        .card-body {
+            padding-top: 20px;
+            font-size: 20px;
+            font-weight: bold;
+            background-color: rgba(0, 0, 0, 0);
+            text-align: center;
+            border-radius: 27px !important;
+        }
+
+        .card-footer {
+            padding-bottom: 20px;
+            font-size: 18px;
+            border-radius: 20px;
+            position: relative;
+            background-color: goldenrod;
+            text-align: center;
+            border: none;
+            color: black;
+            width: 95%;
+            margin-left: 10px;
+            margin-top: 20px;
+            font-weight: 900;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
     .Tenure_program {
         margin-top: 80px;
         margin-bottom: 80px;
@@ -267,10 +377,11 @@
         top: 50%;
         transform: translateY(-50%);
         display: flex;
-        width: calc(100% - 1px);
+        width: calc(100% - 0px);
         justify-content: space-between;
         padding: var(--card-margin);
         z-index: 100;
+        padding: 4px;
 
         button {
             cursor: pointer;
@@ -281,6 +392,10 @@
             width: 40px;
             height: 40px;
             border-radius: 50%;
+            // padding-left: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             color: var(--color-white);
             box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, .25);
             border: 0;
@@ -308,7 +423,7 @@
         }
 
         p {
-            font-family: 'Open Sans Condensed', sans-serif;
+            // font-family: 'Open Sans Condensed', sans-serif;
             font-size: 1.4rem;
             margin-bottom: 0;
         }

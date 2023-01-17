@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react'
 import '../Stylesheets/Aboutus.scss'
-import Banner_right1 from '../assets/Aboutus1.jpg'
-import Banner_right2 from '../assets/Aboutus2.jpg'
-import Banner_right3 from '../assets/Aboutus3.jpg'
+import Banner_right1 from '../assets/boximg1.jpg'
+import Banner_right2 from '../assets/boximg2.jpg'
+import Banner_right3 from '../assets/boximg3.jpg'
 
 export default function Aboutus() {
 
