@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/GYSO/static/css/main.f6cb4bec.css",
+    "main.css": "/GYSO/static/css/main.162b739a.css",
     "main.js": "/GYSO/static/js/main.9132b791.js",
     "static/js/787.5a5c2e62.chunk.js": "/GYSO/static/js/787.5a5c2e62.chunk.js",
     "static/media/Aboutus2.jpg": "/GYSO/static/media/Aboutus2.adc9dbe6481c20081ecc.jpg",
@@ -15,12 +15,12 @@
     "static/media/6.jpg": "/GYSO/static/media/6.8d31044b3fc1b4fe18d9.jpg",
     "static/media/Logo_Gyso_origin.png": "/GYSO/static/media/Logo_Gyso_origin.82525f0ee4ca7265b2e9.png",
     "index.html": "/GYSO/index.html",
-    "main.f6cb4bec.css.map": "/GYSO/static/css/main.f6cb4bec.css.map",
+    "main.162b739a.css.map": "/GYSO/static/css/main.162b739a.css.map",
     "main.9132b791.js.map": "/GYSO/static/js/main.9132b791.js.map",
     "787.5a5c2e62.chunk.js.map": "/GYSO/static/js/787.5a5c2e62.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6cb4bec.css",
+    "static/css/main.162b739a.css",
     "static/js/main.9132b791.js"
   ]
 }
