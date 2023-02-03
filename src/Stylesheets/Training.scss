@@ -27,8 +27,7 @@
 }
 
 .Training_wrapper {
-    font-family: 'Bellefair',
-        serif;
+    font-family: 'Poppins', sans-serif;;
     // background-color: #FCBD50;
     // background-color: goldenrod;
     padding-top: 80px;
@@ -40,7 +39,8 @@
     p {
         text-align: left;
         font-size: 23px;
-        padding: 20px;
+        padding: 2px;
+        margin-left: 10px;
 
         @media screen and (min-width:700px) and (max-width:900px) {
             font-size: 20px;
@@ -69,9 +69,19 @@
 
     .Training_section {
         width: 100%;
-        padding-top: 40px;
-        padding-bottom: 40px;
-        background-color: goldenrod;
+        // padding-top: 40px;
+        // padding-bottom: 40px;
+        // background-color: goldenrod;
+
+        .Training_content_img{
+            background-image: url(../assets/vodo_welcome-removebg-preview.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 330px;
+            height: 330px;
+            transform: scaleX(-1);
+            filter: drop-shadow(1px 1px 11px #000);
+        }
     }
 
     .Training_inner_wrapper {
@@ -155,8 +165,7 @@
                     background-color: goldenrod;
                     padding: 0px;
                     // height: 150px;   
-                    font-family: 'Bellefair',
-                        serif;
+                    font-family:sans-serif;
                     position: relative;
                     margin-bottom: 0px;
                     margin-left: 11px;
@@ -173,6 +182,7 @@
                         width: calc(100% - 80px);
                         font-size: 18px;
                         font-weight: 900;
+                        padding: 15px;
 
                         @media screen and (min-width:600px) and (max-width:900px) {
                             font-size: 18px;

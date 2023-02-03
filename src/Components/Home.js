@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react'
 import '../Stylesheets/Home.scss'
-import Logo from '../assets/1.jpg'
+import Logo from '../assets/booksteps-removebg-preview.png'
 // import Logo1 from '../assets/5.jpg'
-import Logo2 from '../assets/6.jpg'
-import Logo3 from '../assets/4.jpg'
+// import Logo2 from '../assets/6.jpg'
+// import Logo3 from '../assets/4.jpg'
 import Navbar from './Navbar'
 import Footer from './Footer'
 
@@ -52,20 +52,20 @@ export default function Home() {
                 <div className='Navbar'><Navbar></Navbar></div>
                 <div className='row inner_row'>
                     <div className='col-md-7 inner_content'>
-                        <p className='Logo_header'>GYSO</p>
-                        <p className='Logo_header_sub'>Skill Training Academy</p>
-                        <p className='instruction'>Join GYSO, engross in our training</p>
+                        <p className='Logo_header'>KAE LEARNING</p>
+                        <p className='instruction'>Join KAE, engross in our training</p>
                         <p className='instruction'>&</p>
-                        <p className='instruction'>enhance the path to reach your dream career!</p>
-                        <button className='Register_button btn btn-primary' onClick={e=>{
+                        <p className='instruction'>enhance the path to reach your dream</p>
+                        <p className='instruction'>Our trainers are experienced corporate professionals and expert placement facilitators</p>
+                        {/* <button className='Register_button btn btn-primary' onClick={e=>{
                             window.location.href="/#Service"
-                        }}>REGISTER</button>
+                        }}>REGISTER</button> */}
                     </div>
                     <div className='col-md-5'>
                         <div className='inner_img_container'>
-                            <img src={Logo3} className={`Img_logo logo1`}></img>
+                            {/* <img src={Logo3} className={`Img_logo logo1`}></img> */}
                             <img src={Logo} className={`Img_logo logo2`}></img>
-                            <img src={Logo2} className={`Img_logo logo3`}></img>
+                            {/* <img src={Logo2} className={`Img_logo logo3`}></img> */}
                             {/* <img src={Logo1} className={`Img_logo`}></img> */}
                         </div>
                     </div>

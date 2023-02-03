@@ -1,5 +1,5 @@
 // import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 import Home from './Components/Home';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
@@ -17,10 +17,10 @@ function App() {
       <Home></Home>
       <Aboutus></Aboutus>
       <Highlights></Highlights>
-      <Training></Training>
-      <Whygyso></Whygyso>
       <HowGysoworks></HowGysoworks>
-      <Contactus></Contactus>
+      <Training></Training>
+      {/* <Whygyso></Whygyso> */}
+      {/* <Contactus></Contactus> */}
       <Footer></Footer>
     </div>
   );

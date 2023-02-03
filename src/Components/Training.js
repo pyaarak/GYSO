@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import '../Stylesheets/Training.scss'
-import Logo from '../assets/Logo_Gyso_origin.png'
+import Logo from '../assets/Logo_KAE-removebg-preview.png'
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
@@ -53,7 +53,7 @@ export default function Training() {
         {
             icon: `<ul><li>Aptitude - Numerical
             Ability, Logical and Reasoning, Non-Verbal &
-            Verbal Ability.</li><li>Soft Skill & Interview tips.</li><li>Communication Skill needed for interview.</li></ul>`,
+            Verbal Ability.</li><li>Soft Skill & Interview tips.</li><li>Communication Skill needed for interview.</li><li>Tenure - ()</li></ul>`,
             copy: `Intensive Placement Training Program`
         }, {
             icon: `<ul><li>Aptitude - Numerical
@@ -62,7 +62,8 @@ export default function Training() {
             &Verbal Ability.</li>
         <li>Soft Skill, Communication
             Skill and Interview tips.</li>
-        <li>Java basics & coding skills.</li></ul>`,
+        <li>Java basics & coding skills.</li><li>Tenure - (32 hours
+            8hrs * 4 Saturdays)</li></ul>`,
             copy: `a2z Placement
             Training Program`
         }, {
@@ -73,7 +74,8 @@ export default function Training() {
             Resolution, Team work,
             Recruitment Process,
             Presentation and Reporting
-            skills.</li></ul>`,
+            skills.</li><li>Tenure - (24 hours
+                8hrs * 3 Saturdays)</li></ul>`,
             copy: `MBA HR Skill
             Specific Training
             Program`
@@ -85,7 +87,8 @@ export default function Training() {
             & Relationship Skills,
             Follow up & Reporting,
             Presentation Skills,e-mail
-            drafting and so on.</li></ul>`,
+            drafting and so on.</li><li>Tenure - (24 hours
+                8hrs * 3 Saturdays)</li></ul>`,
             copy: `MBA Sales and
             Marketing Skill
             Specific Program`
@@ -94,7 +97,8 @@ export default function Training() {
             Ability, Logical and
             Reasoning, Non-Verbal
             &Verbal Ability.</li>
-        <li>Interview preparation tips.</li></ul>`,
+        <li>Interview preparation tips.</li><li>Tenure - (16 hours
+            8hrs * 2 Saturdays)</li></ul>`,
             copy: `Exclusive
             Aptitude Training
             Program`
@@ -105,7 +109,8 @@ export default function Training() {
         <li>Communication Skill -
             Effective & Conversational
             English, e-mail drafting,
-            Basic Grammar and so on.</li></ul>`,
+            Basic Grammar and so on.</li><li>Tenure - (24 hours
+                8hrs * 3 Saturdays)</li></ul>`,
             copy: `Communication &
             Soft Skill
             Training Program`
@@ -116,7 +121,8 @@ export default function Training() {
             <li>Coding objectives</li>
             <li>Programming logics</li>
             <li>Programming based
-                questions.</li></ul>`,
+                questions.</li><li>Tenure - (56 hours
+                    8hrs * 7Saturdays)</li></ul>`,
             copy: `Java Technical
             Training Program`
         },
@@ -127,7 +133,8 @@ export default function Training() {
             Management,Moral values,
             Body Language, Self
             motivation mantra's and so
-            on.</li></ul>`,
+            on.</li><li>Tenure - (24 hours
+                8hrs * 3 Saturdays)</li></ul>`,
             copy: `Exclusive Soft
             Skill Training
             Program`
@@ -140,7 +147,8 @@ export default function Training() {
             Presentation,Public
             Speaking, HR HR
             Interview Questions,
-            LSRW skills & so on.</li></ul>`,
+            LSRW skills & so on.</li><li>Tenure - (24 hours
+                8hrs * 3 Saturdays)</li></ul>`,
             copy: `Intensive
             Communication
             Skill Program`
@@ -224,197 +232,8 @@ export default function Training() {
     return (
         <div className='Training_wrapper'>
             {/* <canvas id="demo-canvas"></canvas> */}
-            <h1>Trainings Programs of GYSO</h1>
+            <h1>Trainings Programs of KAE</h1>
             <div className='Training_inner_wrapper container-xxxl'>
-                {/* <div className='row'>
-                    <div className='col-lg-3 col-md-4 col-sm-6 training_inner_card'>
-                        <div className='card'>
-                            <div className='card-body'>
-                                <ul>
-                                    <li>Aptitude - Numerical
-                                        Ability, Logical and Reasoning, Non-Verbal &
-                                        Verbal Ability.</li>
-                                    <li>Soft Skill & Interview
-                                        tips.</li>
-                                    <li>Communication Skill needed
-                                        for interview.</li>
-                                </ul>
-                            </div>
-                            <div className='card-footer'>
-                                <p>Intensive
-                                    Placement
-                                    Training Program</p>
-                                <img src={Logo} className="footer_logo_img"></img>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='col-lg-3 col-md-4 col-sm-6 training_inner_card'>
-                        <div className='card'>
-                            <div className='card-body'>
-                                <ul>
-                                    <li>Aptitude - Numerical
-                                        Ability, Logical and
-                                        Reasoning, Non-Verbal
-                                        &Verbal Ability.</li>
-                                    <li>Soft Skill, Communication
-                                        Skill and Interview tips.</li>
-                                    <li>Java basics & coding skills.</li>
-                                </ul>
-                            </div>
-                            <div className='card-footer'>
-                                <p>a2z Placement
-                                    Training Program</p>
-                                <img src={Logo} className="footer_logo_img"></img>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='col-lg-3 col-md-4 col-sm-6 training_inner_card'>
-                        <div className='card'>
-                            <div className='card-body'>
-                                <ul>
-                                    <li>HR skills- Communication,
-                                        LSWR skills, Scheduling,
-                                        Managing Priorities,
-                                        Analytical Skills, Conflict
-                                        Resolution, Team work,
-                                        Recruitment Process,
-                                        Presentation and Reporting
-                                        skills.</li>
-                                </ul>
-                            </div>
-                            <div className='card-footer'>
-                                <p>MBA HR Skill
-                                    Specific Training
-                                    Program</p>
-                                <img src={Logo} className="footer_logo_img"></img>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='col-lg-3 col-md-4 col-sm-6 training_inner_card'>
-                        <div className='card'>
-                            <div className='card-body'>
-                                <ul>
-                                    <li>Sales & Marketing Skills -
-                                        Communication Skills, Sales
-                                        Skills & 3Ps,
-                                        Demonstration, Influencing
-                                        & Relationship Skills,
-                                        Follow up & Reporting,
-                                        Presentation Skills,e-mail
-                                        drafting and so on.</li>
-                                </ul>
-                            </div>
-                            <div className='card-footer'>
-                                <p>MBA Sales and
-                                    Marketing Skill
-                                    Specific Program</p>
-                                <img src={Logo} className="footer_logo_img"></img>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='col-lg-3 col-md-4 col-sm-6 training_inner_card'>
-                        <div className='card'>
-                            <div className='card-body'>
-                                <ul>
-                                    <li>Aptitude - Numerical
-                                        Ability, Logical and
-                                        Reasoning, Non-Verbal
-                                        &Verbal Ability.</li>
-                                    <li>Interview preparation tips.</li>
-                                </ul>
-                            </div>
-                            <div className='card-footer'>
-                                <p>Exclusive
-                                    Aptitude Training
-                                    Program</p>
-                                <img src={Logo} className="footer_logo_img"></img>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='col-lg-3 col-md-4 col-sm-6 training_inner_card'>
-                        <div className='card'>
-                            <div className='card-body'>
-                                <ul>
-                                    <li>Soft Skills - SelfIntroduction, Interview
-                                        Etiquette, Resume Building
-                                        Body Language & so on.</li>
-                                    <li>Communication Skill -
-                                        Effective & Conversational
-                                        English, e-mail drafting,
-                                        Basic Grammar and so on.</li>
-                                </ul>
-                            </div>
-                            <div className='card-footer'>
-                                <p>Communication &
-                                    Soft Skill
-                                    Training Program</p>
-                                <img src={Logo} className="footer_logo_img"></img>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='col-lg-3 col-md-4 col-sm-6 training_inner_card'>
-                        <div className='card'>
-                            <div className='card-body'>
-                                <ul>
-                                    <li>Java - Fundamentals</li>
-                                    <li>Core Java Concepts</li>
-                                    <li>Coding objectives</li>
-                                    <li>Programming logics</li>
-                                    <li>Programming based
-                                        questions.</li>
-                                </ul>
-                            </div>
-                            <div className='card-footer'>
-                                <p>Java Technical
-                                    Training Program</p>
-                                <img src={Logo} className="footer_logo_img"></img>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='col-lg-3 col-md-4 col-sm-6 training_inner_card'>
-                        <div className='card'>
-                            <div className='card-body'>
-                                <ul>
-                                    <li>Soft Skills - SelfIntroduction, Interview
-                                        Etiquette, Resume
-                                        Building, Time
-                                        Management,Moral values,
-                                        Body Language, Self
-                                        motivation mantra's and so
-                                        on.</li>
-                                </ul>
-                            </div>
-                            <div className='card-footer'>
-                                <p>Exclusive Soft
-                                    Skill Training
-                                    Program</p>
-                                <img src={Logo} className="footer_logo_img"></img>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='col-lg-3 col-md-4 col-sm-6 training_inner_card'>
-                        <div className='card'>
-                            <div className='card-body'>
-                                <ul>
-                                    <li>Communication Skill -
-                                        Effective & Conversational
-                                        English, e-mail drafting,
-                                        Basic Grammar,
-                                        Presentation,Public
-                                        Speaking, HR HR
-                                        Interview Questions,
-                                        LSRW skills & so on.</li>
-                                </ul>
-                            </div>
-                            <div className='card-footer'>
-                                <p>Intensive
-                                    Communication
-                                    Skill Program</p>
-                                <img src={Logo} className="footer_logo_img"></img>
-                            </div>
-                        </div>
-                    </div>
-                </div> */}
                 <div className="carouselwrapper module-wrapper">
                     <div className="ui">
                         <button onClick={() => setMoveClass1('next')} className="prev">
@@ -432,41 +251,49 @@ export default function Training() {
                 </div>
             </div>
             <div className='Training_section'>
-                <div className='container'>
+                <div className='container-fluid'>
                     <div className='row'>
-                        <div className='col-md-6'>
-                            <p><b>1.</b> A training program is offered by GYSO to the institutions only when the
+                        <div className='col-md-8'>
+                            <p><b>1.</b> A training program is offered by KAE to the institutions only when the
                                 participant strength is 25 & above.</p>
-                        </div>
-                        <div className='col-md-6'>
                             <p><b>2.</b> The training will be Interactive, Play way and instructive.</p>
-                        </div>
-                    </div>
-                    <div className='row'>
-                        <div className='col-md-6'>
                             <p><b>3.</b> At the end of our training, the participants will be given online MCQ
                                 assessments, coding questions and a mock HR interview session for practice.</p>
-                        </div>
-                        <div className='col-md-6'>
                             <p><b>4.</b> After the training, the participants can utilize our Every Saturday Online
                                 Assessments (ESA) and note for resume preparation, self-introduction, tips
                                 for interview preparation, GD topics and e-mail drafting up to 6months
-                                through our GYSO’s online classroom.</p>
+                                through our KAE’s online classroom.</p>
+                            <p><b>5.</b> The participants will be given certification for the trainings at the end of the
+                                session.</p>
+                            <p><b>6.</b> Active Participants of our training sessions will be boosted and encouraged
+                                with awards and rewards.</p>
+                        </div>
+                        <div className='col-md-4'>
+                            <div className='Training_content_img'></div>
+                        </div>
+                        {/* <div className='col-md-6'>
+                            <p><b>2.</b> The training will be Interactive, Play way and instructive.</p>
+                        </div> */}
+                    </div>
+                    {/* <div className='row'>
+                        <div className='col-md-6'>
+
+                        </div>
+                        <div className='col-md-6'>
+
                         </div>
                     </div>
                     <div className='row'>
                         <div className='col-md-6'>
-                            <p><b>5.</b> The participants will be given certification for the trainings at the end of the
-                                session.</p>
+
                         </div>
                         <div className='col-md-6'>
-                            <p><b>6.</b> Active Participants of our training sessions will be boosted and encouraged
-                                with awards and rewards.</p>
+
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
-            <div className='Tenure_program'>
+            {/* <div className='Tenure_program'>
                 <div className='Tenure_inner_container'>
                     <div><h1>Tenure of Program</h1></div>
                     <div className="carouselwrapper module-wrapper">
@@ -485,7 +312,7 @@ export default function Training() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }

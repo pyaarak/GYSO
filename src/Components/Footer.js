@@ -3,7 +3,7 @@ import '../Stylesheets/Footer.scss'
 import fb from '../assets/fb.png'
 import insta from '../assets/instagram.png'
 import linkedin from '../assets/linkedin.png'
-import Logo from '../assets/Logo_Gyso_origin.png'
+import Logo from '../assets/Logo_KAE-removebg-preview.png'
 
 export default function Footer() {
     return (
@@ -13,7 +13,7 @@ export default function Footer() {
                     <div className='row'>
                        <div className='col-lg-4'>
                         <img src={Logo} className="logo_img"></img>
-                        <h4>About Gyso</h4>
+                        <h4>About KAE</h4>
                         <p>We're passionate about teaching people how to do better oppertunity for their own presence</p>
                        </div>
                        <div className='col-md-1'></div>

@@ -1,76 +1,111 @@
 .HowGyso_wrapper {
     width: 100%;
-    font-family: 'Bellefair',
-        serif;
+    font-family: 'Poppins', sans-serif;
+    ;
     padding-top: 80px;
     padding-bottom: 80px;
+    position: relative;
+    height: 320px;
     // background-image: url(../assets/boximg.jpg);
     // background-repeat: no-repeat;
     // background-size: cover;
 
+    @media screen and (max-width:500px){
+        height: 600px;
+    }
+
+    .How_Img {
+        background-image: url(../assets/vodo_search_lens-removebg-preview.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 35%;
+        height: 300px;
+        float: left;
+        background-position: top center;
+        // margin-top: -413px;
+        // position: absolute;
+        // left: 14%;
+
+        @media screen and (max-width:500px){
+            width: 70%;
+            background-position: bottom center;
+        }
+    }
+
     .HowGyso_header {
-        text-align: center;
+        // text-align: center;
         font-size: 22px;
 
-        h1{
+        h1 {
             font-weight: 900;
             margin-bottom: 30px;
         }
 
-        p{
+        p {
             margin-bottom: 10px;
         }
     }
 
     .HowGyso_inner_wrapper {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        width: 65%;
+        float: right;
 
-        .Howgyso_inner{
+        @media screen and (max-width:500px){
+            width: 95%;
+        }
+
+        .Howgyso_inner {
             width: 80%;
+            margin-top: 20px;
+            text-align: left;
 
-            @media screen and (min-width:600px) and (max-width:900px){
+
+            @media screen and (min-width:600px) and (max-width:900px) {
                 width: 90%;
                 margin-top: 36px;
             }
 
-            @media screen and (min-width:200px) and (max-width:600px){
+            @media screen and (min-width:200px) and (max-width:600px) {
                 width: 96%;
             }
 
-            .inner_card1{
-                transform: rotate(25deg);
+            .inner_card1 {
+                // transform: rotate(25deg);
 
-                @media screen and (max-width:767px){
+                @media screen and (max-width:767px) {
                     transform: rotate(0deg);
                 }
             }
 
-            .inner_card2{
+            .inner_card2 {
                 transform: rotate(0deg);
-                margin-top: 90px;
+                // margin-top: 90px;
 
-                @media screen and (max-width:767px){
+                @media screen and (max-width:767px) {
                     transform: rotate(0deg);
                     margin-top: 0px;
                 }
             }
 
-            .inner_card3{
-                transform: rotate(-25deg);
+            .inner_card3 {
+                // transform: rotate(-25deg);
 
-                @media screen and (max-width:767px){
+                @media screen and (max-width:767px) {
                     transform: rotate(0deg);
                 }
             }
 
-            .card{
+            .card {
                 padding: 20px;
                 font-size: 22px;
-                box-shadow: 3px 1px 9px -1px rgb(0 0 0 / 60%);
+                border: 0px;
+                background-color: rgba(0, 0, 0, 0);
+                // box-shadow: 3px 1px 9px -1px rgb(0 0 0 / 60%);
                 margin-bottom: 30px;
-                text-align: center;
+                // text-align: center;
                 height: 150px;
                 border-radius: 20px;
             }
