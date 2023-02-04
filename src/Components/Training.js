@@ -246,6 +246,7 @@ export default function Training() {
                 <div className='container-fluid'>
                     <div className='row'>
                         <div className='col-md-8'>
+                            <h2>About KAE Training Program</h2>
                             <p><b>1.</b> A training program is offered by KAE to the institutions only when the
                                 participant strength is 25 & above.</p>
                             <p><b>2.</b> The training will be Interactive, Play way and instructive.</p>

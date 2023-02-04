@@ -19,7 +19,7 @@ export default function Footer() {
                        <div className='col-md-1'></div>
                        <div className='col-lg-4 content'>
                         <h4>Contact</h4>
-                        <p><a href='mailto:reachgyso@gmail.com'>reachgyso@gmail.com</a></p>
+                        <p><a href='mailto:learningkae@gmail.com'>learningkae@gmail.com</a></p>
                         <p><a href='tel:6369664224'>6369664224</a></p>
                        </div>
                        <div className='col-lg-3 content'>

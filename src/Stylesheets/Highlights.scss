@@ -8,10 +8,12 @@
     }
 
     .Highlights_inner_wrapper {
-        margin-top: 50px;
-        padding-top: 50px;
+        // margin-top: 50px;
+        // padding-top: 50px;
+        text-align: justify;
+        text-justify: inter-word;
 
-        .Highlight{
+        .Highlight {
             font-weight: 600 !important;
         }
 
@@ -36,7 +38,7 @@
             align-items: center;
             width: 100%;
 
-            @media screen and (max-width:660px){
+            @media screen and (max-width:660px) {
                 display: contents;
             }
 
@@ -48,7 +50,7 @@
                 background-size: contain;
                 // filter: drop-shadow(5px 5px 10px #000);
 
-                @media screen and (max-width:660px){
+                @media screen and (max-width:660px) {
                     width: 100%;
                 }
             }
@@ -82,8 +84,8 @@
                 border-radius: 10px;
                 font-size: 20px;
 
-                @media screen and (max-width:500px){
-                    padding: 5px;
+                @media screen and (max-width:500px) {
+                    padding: 30px;
                 }
             }
         }
