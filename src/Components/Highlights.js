@@ -59,8 +59,7 @@ export default function Highlights() {
                 <h2>Highlights of KAE Learning</h2>
                 <div className='card Highlight_inner_card square-transition1'>
                   <div className='card-body'>
-                    <p sttle={{
-                      color: "goldenrod","font-weight": "600 !important"}}>We offer free online training to students from a very financial low
+                    <p style={{color: "goldenrod"}} className="Highlight">We offer free online training to students from a very financial low
                     background through the <b className='bold' style={{color:"black"}}>“Guide Students Right”</b> program operated by the
                     KAE Learning team.</p>
                   <p>We provide long run support to the students undertaking our placement
