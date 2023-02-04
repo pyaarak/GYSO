@@ -1,26 +1,29 @@
 {
   "files": {
-    "main.css": "/GYSO/static/css/main.162b739a.css",
-    "main.js": "/GYSO/static/js/main.9132b791.js",
+    "main.css": "/GYSO/static/css/main.1d78a10c.css",
+    "main.js": "/GYSO/static/js/main.ff5bd0c6.js",
     "static/js/787.5a5c2e62.chunk.js": "/GYSO/static/js/787.5a5c2e62.chunk.js",
     "static/media/Aboutus2.jpg": "/GYSO/static/media/Aboutus2.adc9dbe6481c20081ecc.jpg",
     "static/media/Aboutus3.jpg": "/GYSO/static/media/Aboutus3.84e6f0733e5b2e254fdc.jpg",
     "static/media/boximg1.jpg": "/GYSO/static/media/boximg1.5cd35516748790fb6a3d.jpg",
-    "static/media/1.jpg": "/GYSO/static/media/1.309ef3e441bb095152ed.jpg",
     "static/media/boximg2.jpg": "/GYSO/static/media/boximg2.0dfa5752554934d6d7b3.jpg",
     "static/media/Aboutus1.jpg": "/GYSO/static/media/Aboutus1.508fda79cd9402699eb1.jpg",
     "static/media/boximg3.jpg": "/GYSO/static/media/boximg3.341f7f2e2ef3dbcd9b5b.jpg",
-    "static/media/4.jpg": "/GYSO/static/media/4.3601847228c0154be5fa.jpg",
-    "static/media/header-background.jpg": "/GYSO/static/media/header-background.667684fe7055b0f7fd85.jpg",
-    "static/media/6.jpg": "/GYSO/static/media/6.8d31044b3fc1b4fe18d9.jpg",
+    "static/media/tech_machines_withman-removebg-preview.png": "/GYSO/static/media/tech_machines_withman-removebg-preview.d983b99e9633b0907f34.png",
+    "static/media/booksteps-removebg-preview.png": "/GYSO/static/media/booksteps-removebg-preview.033e1d249d3a8ebf7a4e.png",
+    "static/media/teaching-removebg-preview.png": "/GYSO/static/media/teaching-removebg-preview.cc89fc583f19778468a0.png",
+    "static/media/vodo_welcome-removebg-preview.png": "/GYSO/static/media/vodo_welcome-removebg-preview.ab30cc96eca1607255ff.png",
+    "static/media/teching_with_twopeoples.svg": "/GYSO/static/media/teching_with_twopeoples.2ad406252e03f0260a68.svg",
+    "static/media/vodo_search_lens-removebg-preview.png": "/GYSO/static/media/vodo_search_lens-removebg-preview.ad790ede6251de0c9420.png",
     "static/media/Logo_Gyso_origin.png": "/GYSO/static/media/Logo_Gyso_origin.82525f0ee4ca7265b2e9.png",
+    "static/media/Logo_KAE-removebg-preview.png": "/GYSO/static/media/Logo_KAE-removebg-preview.602efe0462d2e6c8f8fe.png",
     "index.html": "/GYSO/index.html",
-    "main.162b739a.css.map": "/GYSO/static/css/main.162b739a.css.map",
-    "main.9132b791.js.map": "/GYSO/static/js/main.9132b791.js.map",
+    "main.1d78a10c.css.map": "/GYSO/static/css/main.1d78a10c.css.map",
+    "main.ff5bd0c6.js.map": "/GYSO/static/js/main.ff5bd0c6.js.map",
     "787.5a5c2e62.chunk.js.map": "/GYSO/static/js/787.5a5c2e62.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.162b739a.css",
-    "static/js/main.9132b791.js"
+    "static/css/main.1d78a10c.css",
+    "static/js/main.ff5bd0c6.js"
   ]
 }
