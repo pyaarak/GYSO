@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/GYSO/static/css/main.1d78a10c.css",
-    "main.js": "/GYSO/static/js/main.ff5bd0c6.js",
+    "main.css": "/GYSO/static/css/main.0d5dd0e0.css",
+    "main.js": "/GYSO/static/js/main.4c7cc9e0.js",
     "static/js/787.5a5c2e62.chunk.js": "/GYSO/static/js/787.5a5c2e62.chunk.js",
     "static/media/Aboutus2.jpg": "/GYSO/static/media/Aboutus2.adc9dbe6481c20081ecc.jpg",
     "static/media/Aboutus3.jpg": "/GYSO/static/media/Aboutus3.84e6f0733e5b2e254fdc.jpg",
@@ -18,12 +18,12 @@
     "static/media/Logo_Gyso_origin.png": "/GYSO/static/media/Logo_Gyso_origin.82525f0ee4ca7265b2e9.png",
     "static/media/Logo_KAE-removebg-preview.png": "/GYSO/static/media/Logo_KAE-removebg-preview.602efe0462d2e6c8f8fe.png",
     "index.html": "/GYSO/index.html",
-    "main.1d78a10c.css.map": "/GYSO/static/css/main.1d78a10c.css.map",
-    "main.ff5bd0c6.js.map": "/GYSO/static/js/main.ff5bd0c6.js.map",
+    "main.0d5dd0e0.css.map": "/GYSO/static/css/main.0d5dd0e0.css.map",
+    "main.4c7cc9e0.js.map": "/GYSO/static/js/main.4c7cc9e0.js.map",
     "787.5a5c2e62.chunk.js.map": "/GYSO/static/js/787.5a5c2e62.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d78a10c.css",
-    "static/js/main.ff5bd0c6.js"
+    "static/css/main.0d5dd0e0.css",
+    "static/js/main.4c7cc9e0.js"
   ]
 }
