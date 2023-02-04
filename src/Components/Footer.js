@@ -14,7 +14,7 @@ export default function Footer() {
                        <div className='col-lg-4'>
                         <img src={Logo} className="logo_img"></img>
                         <h4>About KAE</h4>
-                        <p>We're passionate about teaching people how to do better oppertunity for their own presence</p>
+                        <p>We are experts in technical and non-technical skill training for students</p>
                        </div>
                        <div className='col-md-1'></div>
                        <div className='col-lg-4 content'>
@@ -31,7 +31,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className='footer_wrapper_bottom'>
-                <p>Copyright © 2023 GYSO - All rights reserved</p>
+                <p>Copyright © 2023 KAE - All rights reserved</p>
             </div>
         </>
     )

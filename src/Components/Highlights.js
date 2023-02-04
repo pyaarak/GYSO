@@ -59,16 +59,17 @@ export default function Highlights() {
                 <h2>Highlights of KAE Learning</h2>
                 <div className='card Highlight_inner_card square-transition1'>
                   <div className='card-body'>
-                    <p>We offer free online training to students from a very financial low
-                      background through the <b className='bold'>“Guide Students Right”</b> program operated by the
-                      KAE Learning team.</p>
-                    <p>We provide long run support to the students undertaking our placement
-                      trainings by including them in our online classroom up to 6months and provide
-                      them mock assessments every Saturday and doubt clarification sessions
-                      once in a month.</p>
-                  </div>
+                    <p sttle={{
+                      color: "goldenrod","font-weight": "600 !important"}}>We offer free online training to students from a very financial low
+                    background through the <b className='bold' style={{color:"black"}}>“Guide Students Right”</b> program operated by the
+                    KAE Learning team.</p>
+                  <p>We provide long run support to the students undertaking our placement
+                    trainings by including them in our online classroom up to 6months and provide
+                    them mock assessments every Saturday and doubt clarification sessions
+                    once in a month.</p>
                 </div>
-                {/* <div className='card Highlight_inner_card1 square-transition2'>
+              </div>
+              {/* <div className='card Highlight_inner_card1 square-transition2'>
                   <div className='card-body'>
                     <p>We offer free online trainings to students from very financial low background
                       through “Guide Students Right” program operated by GYSO team.</p>
@@ -76,14 +77,14 @@ export default function Highlights() {
                     <p>Trainings are offered by corporate people and expert placement trainers.</p>
                   </div>
                 </div> */}
-              </div>
             </div>
           </div>
-          <div className='col-lg-5'>
-            <div className="inner_img"></div>
-          </div>
+        </div>
+        <div className='col-lg-5'>
+          <div className="inner_img"></div>
         </div>
       </div>
     </div>
+    </div >
   )
 }

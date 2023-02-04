@@ -53,7 +53,7 @@ export default function Training() {
         {
             icon: `<ul><li>Aptitude - Numerical
             Ability, Logical and Reasoning, Non-Verbal &
-            Verbal Ability.</li><li>Soft Skill & Interview tips.</li><li>Communication Skill needed for interview.</li><li>Tenure - ()</li></ul>`,
+            Verbal Ability.</li><li>Soft Skill & Interview tips.</li><li>Communication Skill needed for interview.</li><li>Tenure - (32 hours)</li></ul>`,
             copy: `Intensive Placement Training Program`
         }, {
             icon: `<ul><li>Aptitude - Numerical
@@ -62,8 +62,7 @@ export default function Training() {
             &Verbal Ability.</li>
         <li>Soft Skill, Communication
             Skill and Interview tips.</li>
-        <li>Java basics & coding skills.</li><li>Tenure - (32 hours
-            8hrs * 4 Saturdays)</li></ul>`,
+        <li>Java basics & coding skills.</li><li>Tenure - (56 hours)</li></ul>`,
             copy: `a2z Placement
             Training Program`
         }, {
@@ -74,8 +73,7 @@ export default function Training() {
             Resolution, Team work,
             Recruitment Process,
             Presentation and Reporting
-            skills.</li><li>Tenure - (24 hours
-                8hrs * 3 Saturdays)</li></ul>`,
+            skills.</li><li>Tenure - (24 hours)</li></ul>`,
             copy: `MBA HR Skill
             Specific Training
             Program`
@@ -87,8 +85,7 @@ export default function Training() {
             & Relationship Skills,
             Follow up & Reporting,
             Presentation Skills,e-mail
-            drafting and so on.</li><li>Tenure - (24 hours
-                8hrs * 3 Saturdays)</li></ul>`,
+            drafting and so on.</li><li>Tenure - (24 hours)</li></ul>`,
             copy: `MBA Sales and
             Marketing Skill
             Specific Program`
@@ -97,8 +94,7 @@ export default function Training() {
             Ability, Logical and
             Reasoning, Non-Verbal
             &Verbal Ability.</li>
-        <li>Interview preparation tips.</li><li>Tenure - (16 hours
-            8hrs * 2 Saturdays)</li></ul>`,
+        <li>Interview preparation tips.</li><li>Tenure - (24 hours)</li></ul>`,
             copy: `Exclusive
             Aptitude Training
             Program`
@@ -109,8 +105,7 @@ export default function Training() {
         <li>Communication Skill -
             Effective & Conversational
             English, e-mail drafting,
-            Basic Grammar and so on.</li><li>Tenure - (24 hours
-                8hrs * 3 Saturdays)</li></ul>`,
+            Basic Grammar and so on.</li><li>Tenure - (24 hours)</li></ul>`,
             copy: `Communication &
             Soft Skill
             Training Program`
@@ -121,8 +116,7 @@ export default function Training() {
             <li>Coding objectives</li>
             <li>Programming logics</li>
             <li>Programming based
-                questions.</li><li>Tenure - (56 hours
-                    8hrs * 7Saturdays)</li></ul>`,
+                questions.</li><li>Tenure - (24 hours)</li></ul>`,
             copy: `Java Technical
             Training Program`
         },
@@ -133,8 +127,7 @@ export default function Training() {
             Management,Moral values,
             Body Language, Self
             motivation mantra's and so
-            on.</li><li>Tenure - (24 hours
-                8hrs * 3 Saturdays)</li></ul>`,
+            on.</li><li>Tenure - (16 hours)</li></ul>`,
             copy: `Exclusive Soft
             Skill Training
             Program`
@@ -147,8 +140,7 @@ export default function Training() {
             Presentation,Public
             Speaking, HR HR
             Interview Questions,
-            LSRW skills & so on.</li><li>Tenure - (24 hours
-                8hrs * 3 Saturdays)</li></ul>`,
+            LSRW skills & so on.</li><li>Tenure - (16 hours)</li></ul>`,
             copy: `Intensive
             Communication
             Skill Program`

@@ -77,10 +77,15 @@
             background-image: url(../assets/vodo_welcome-removebg-preview.png);
             background-repeat: no-repeat;
             background-size: contain;
+            background-position: right;
             width: 330px;
             height: 330px;
             transform: scaleX(-1);
             filter: drop-shadow(1px 1px 11px #000);
+
+            @media screen and (max-width:769px){
+                display: none;
+            }
         }
     }
 

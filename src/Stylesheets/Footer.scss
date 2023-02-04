@@ -39,6 +39,11 @@
         .logo_img {
             width: 100px;
             height: 100px;
+            margin-left: -22px;
+
+            @media screen and (max-width:992px){
+                margin-left: 35px;
+            }
         }
 
         .content {
